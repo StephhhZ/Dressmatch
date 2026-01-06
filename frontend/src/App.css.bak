@@ -1,0 +1,4 @@
+body {
+  background: linear-gradient(135deg, #ffdde1 0%, #ee9ca7 100%);
+  font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Arial', sans-serif;
+} 

@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(135deg, #ffdde1 0%, #ee9ca7 100%);
+  font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Arial', sans-serif;
+}
+
+.Chuanda {
+  max-width: 480px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #22223b;
+}
+
+form > div {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #4a4e69;
+  font-weight: 500;
+}
+
+input[type="file"] {
+  margin-top: 4px;
+}
+
+select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  }
+
+button[type="submit"] {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+button[disabled] {
+  background: #bfc9d1;
+  cursor: not-allowed;
+}
+
+.suggestion {
+  margin-top: 32px;
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 18px 16px;
+  color: #22223b;
+  box-shadow: 0 1px 4px rgba(79,140,255,0.07);
+}
